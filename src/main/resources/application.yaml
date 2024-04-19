@@ -1,0 +1,11 @@
+ktor:
+    development: true
+
+    deployment:
+        port: 8080
+
+        watch: -classes #for hot reload server files dir under build/classes
+
+    application:
+        modules:
+            - com.lmkhant.ApplicationKt.module
